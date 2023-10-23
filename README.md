@@ -36,11 +36,11 @@ In VS Code, you can proceed to create your test scripts within your spec file, s
 **Viewing Test Results**
 Once you have completed your test scripts in VS Code, open a new terminal and type the command:
 
-arduino
-Copy code
 npx cypress open
 Your test results, including both passed and failed tests, will be displayed in the Cypress Test Runner UI. You can click on individual test cases to view detailed information, including assertions and any errors encountered.
 
+_****Note** All my tests passed successfully; however, Cypress generated an error, misinterpreting the 'Click Here' button's function as an attempt to open another page instead of initiating a file download._
+**
 **Cypress Commands**
 In the test scripts, various Cypress commands are used to interact with the web application and make assertions. Some common commands include:
 
@@ -57,12 +57,12 @@ If you encounter issues with your test scripts, please refer to the Cypress docu
 **Contributions**
 Your contributions are highly valued! Here are some ways you can get involved:
 
-Report Issues: If you encounter any issues or bugs while running the Cypress tests, please report them by opening an issue and providing details about the problem you encountered. Your feedback is crucial for improving the test suite's robustness.
+**Report Issues:** If you encounter any issues or bugs while running the Cypress tests, please report them by opening an issue and providing details about the problem you encountered. Your feedback is crucial for improving the test suite's robustness.
 
-Enhance Existing Tests: If you're a developer with Cypress experience, consider enhancing the existing test scripts. Your contributions can help expand test coverage and make our test suite more comprehensive.
+**Enhance Existing Tests**: If you're a developer with Cypress experience, consider enhancing the existing test scripts. Your contributions can help expand test coverage and make our test suite more comprehensive.
 
-Add New Test Cases: Feel free to contribute by adding new test cases relevant to the Billable Hours project. This can help ensure that the application remains reliable and efficient.
+**Add New Test Cases:** Feel free to contribute by adding new test cases relevant to the Billable Hours project. This can help ensure that the application remains reliable and efficient.
 
-Suggestions: If you have valuable suggestions for improving our test suite or test strategies, open an issue and share your ideas. Your insights can lead to more effective testing.
+**Suggestions:** If you have valuable suggestions for improving our test suite or test strategies, open an issue and share your ideas. Your insights can lead to more effective testing.
 
 Thank you for your support and collaboration.
